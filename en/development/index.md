@@ -11,6 +11,7 @@ Below are some development guide:
 - [Qt User Guide](qt.md)
 - [Javascript User Guide](javascript.md)
 - [Python User Guide](python.md)
+- [Docker User Guide](docker.md)
 - [IDE](ide.md)
 - [Coredump](coredump.md)
 - [Perf Usage Note](perf.md)

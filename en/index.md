@@ -8,3 +8,4 @@
 - [AI](./ai/index.md)
 - [Robot](./robot/index.md)
 - [System Integration](./system_integration/index.md)
+- [FAQ](faqs.md)
