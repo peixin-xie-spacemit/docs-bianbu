@@ -23,7 +23,7 @@ Signed-By: /usr/share/keyrings/bianbu-archive-keyring.gpg
 
 **Release Date:** 2025-12-15
 
-The corresponding **BSP version:** [v2.2](https://sdk.spacemit.com/release_notes/bl-v2.2.y)
+The corresponding **BSP version:** [v2.2](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/bl-v2.2.y.md)
 
 ### Key updates to LXQt desktop components
 
