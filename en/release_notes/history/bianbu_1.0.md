@@ -27,7 +27,7 @@ For detailed upgrade instructions, please refer to: **[User Guide — System Upg
 
 **Release Date:** 2024-5-30
 
-The corresponding **Buildroot version:** [v1.0](https://sdk.spacemit.com/en/release_notes/bl-v1.0.y#v10-release-note)
+The corresponding **Buildroot version:** [v1.0](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ### Main components
 
@@ -79,7 +79,7 @@ The corresponding **Buildroot version:** [v1.0](https://sdk.spacemit.com/en/rele
 
 **Release Date:** 2024-6-19
 
-The corresponding **Buildroot version:** [v1.0.3](https://sdk.spacemit.com/en/release_notes/bl-v1.0.y#v103-release-note)
+The corresponding **Buildroot version:** [v1.0.3](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ### Major Updates
 
@@ -92,7 +92,7 @@ The corresponding **Buildroot version:** [v1.0.3](https://sdk.spacemit.com/en/re
 
 **Release Date:** 2024-6-26
 
-The corresponding **Buildroot version:** [v1.0.5](https://sdk.spacemit.com/en/release_notes/bl-v1.0.y#v105-release-note)
+The corresponding **Buildroot version:** [v1.0.5](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ### Major Updates
 
@@ -103,31 +103,31 @@ The corresponding **Buildroot version:** [v1.0.5](https://sdk.spacemit.com/en/re
 
 **Release Date:** 2024-7-11
 
-The corresponding **Buildroot version:** [v1.0.7](https://sdk.spacemit.com/en/release_notes/bl-v1.0.y#v107-release-note)
+The corresponding **Buildroot version:** [v1.0.7](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ## V1.0.8
 
 **Release Date:** 2024-7-16
 
-The corresponding **Buildroot version:** [v1.0.8](https://sdk.spacemit.com/en/release_notes/bl-v1.0.y#v108-release-note)
+The corresponding **Buildroot version:** [v1.0.8](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ## V1.0.9
 
 **Release Date:** 2024-7-20
 
-The corresponding **Buildroot version:** [v1.0.9](https://sdk.spacemit.com/en/release_notes/bl-v1.0.y#v109-release-note)
+The corresponding **Buildroot version:** [v1.0.9](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ## V1.0.11
 
 **Release Date:** 2024-8-1
 
-The corresponding **Buildroot version:** [v1.0.11](https://sdk.spacemit.com/en/release_notes/bl-v1.0.y#v1011-release-note)
+The corresponding **Buildroot version:** [v1.0.11](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ## V1.0.12
 
 **Release Date:** 2024-8-2
 
-The corresponding **Buildroot version:** [v1.0.12](https://sdk.spacemit.com/en/release_notes/bl-v1.0.y#v1012-release-note)
+The corresponding **Buildroot version:** [v1.0.12](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ### Major Updates
 
@@ -137,7 +137,7 @@ The corresponding **Buildroot version:** [v1.0.12](https://sdk.spacemit.com/en/r
 
 **Release Date:** 2024-8-16
 
-The corresponding **Buildroot version:** [v1.0.13](https://sdk.spacemit.com/en/release_notes/bl-v1.0.y#v1013-release-note)
+The corresponding **Buildroot version:** [v1.0.13](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ### Major Updates
 
@@ -151,7 +151,7 @@ The corresponding **Buildroot version:** [v1.0.13](https://sdk.spacemit.com/en/r
 
 **Release Date:** 2024-8-31
 
-The corresponding **Buildroot version:** [v1.0.14](https://sdk.spacemit.com/en/release_notes/bl-v1.0.y#v1014-release-note)
+The corresponding **Buildroot version:** [v1.0.14](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ### Major Updates
 
@@ -162,7 +162,7 @@ The corresponding **Buildroot version:** [v1.0.14](https://sdk.spacemit.com/en/r
 
 **Release Date:** 2024-9-7
 
-The corresponding **Buildroot version:** [v1.0.15](https://sdk.spacemit.com/en/release_notes/bl-v1.0.y#v1015-release-note)
+The corresponding **Buildroot version:** [v1.0.15](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ### Major Updates
 

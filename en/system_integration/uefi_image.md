@@ -15,10 +15,9 @@ As of the latest document modification date of July 1, 2025, only products using
 5. **Titan Firmware** - Packaging the firmware for Titan Flasher Tool
 6. **SDCARD Image Creation** - Creating an image file that can be directly written to an SD card
 
-
 ## Environment Requirements
 
-The host machine's environment preparation and the creation of the Bianbu Minimal 2.2 ROOTFS can be found in the [Bianbu 2.1/2.2 ROOTFS Creation Guide](https://bianbu.spacemit.com/en/system_integration/bianbu_2.1_rootfs_create/). After preparing the container environment and ROOTFS, it is possible to proceed with the creation of the UEFI firmware and system image.
+The host machine's environment preparation and the creation of the Bianbu Minimal 2.2 ROOTFS can be found in the [Bianbu 2.1/2.2 ROOTFS Creation Guide](bianbu_2.1_rootfs_create.md). After preparing the container environment and ROOTFS, it is possible to proceed with the creation of the UEFI firmware and system image.
 
 First, set up the workspace environment variables to manage the UEFI firmware compilation and image creation:
 
@@ -542,7 +541,6 @@ mke2fs -d rootfs -L rootfs -t ext4 -N 524288 -U $UUID_ROOTFS rootfs.ext4 "2048M"
    # Delete redundant files
    rm $TMP/partition_flash.json.bak
    ```
-
 
 5. Shell
 

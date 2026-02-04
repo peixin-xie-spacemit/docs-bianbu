@@ -4,15 +4,15 @@ sidebar_position: 2
 
 # Bianbu 2.0 ROOTFS 制作
 
-建议使用 [bianbu 2.1/2.2 ROOTFS制作](./bianbu_2.1_rootfs_create.md)。
+建议使用 [Bianbu 2.1/2.2 ROOTFS 制作](./bianbu_2.1_rootfs_create.md)。
 
 ## 环境要求
 
 宿主机推荐 Ubuntu 20.04/22.04，且安装了 docker ce 和 qemu-user-static（8.0.4，定制版，默认开启了 Vector 1.0 支持）。
 
-### docker
+### Docker
 
-docker ce 安装可参考 [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/) 。
+Docker CE 安装可参考 [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/) 。
 
 ### qemu
 
@@ -161,7 +161,7 @@ chroot $TARGET_ROOTFS /bin/bash -c "DEBIAN_FRONTEND=noninteractive apt-get -y --
 - Dekstop：bianbu-desktop bianbu-desktop-zh bianbu-desktop-en bianbu-desktop-minimal-en bianbu-standard bianbu-development
 - NAS：bianbu-nas
 
-Dekstop和NAS都是基于Minimal的，建议先安装Mnimal元包再安装Dekstop元包。
+Dekstop 和 NAS 都是基于 Minimal 的，建议先安装 Minimal 元包再安装 Dekstop 元包。
 
 这里以制作最小的 minimal 变体为例：
 
@@ -252,7 +252,7 @@ mount | grep "$TARGET_ROOTFS/dev/pts" > /dev/null && umount -l $TARGET_ROOTFS/de
 mount | grep "$TARGET_ROOTFS/dev" > /dev/null && umount -l $TARGET_ROOTFS/dev
 ```
 
-生成 UUID,并写入/etc/fstab
+生成 UUID, 并写入/etc/fstab
 
 ```shell
 UUID_BOOTFS=$(uuidgen)

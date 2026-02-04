@@ -35,7 +35,7 @@ Corresponding **BSP** version: [v2.2.7](https://www.spacemit.com/community/docum
 
 The corresponding **BSP version:** [v2.2](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/bl-v2.2.y.md)
 
-### Key updates to LXQt desktop components
+### Major updates to LXQt desktop components
 
 **1. New Image - bianbu lxqt desktop version**
 
@@ -48,11 +48,11 @@ The corresponding **BSP version:** [v2.2](https://www.spacemit.com/community/doc
   - Ctrl + Alt + ←/→: Switch between left/right workspaces
   - logo + F1~F4: Jump to specified workspace
 
-### Key updates to GNOME desktop components
+### Major updates to GNOME desktop components
 
 There are currently no updates to the GNOME desktop components.
 
-### Key updates to Bianbu OS basic components
+### Major updates to Bianbu OS basic components
 
 **1. Display**
 

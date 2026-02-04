@@ -8,7 +8,7 @@ sidebar_position: 1
 
 Bianbu V1.0 基于 **Ubuntu 23.10** 构建。由于 Ubuntu 社区已停止对 23.10 版本的维护与安全更新，Bianbu V1.0 已不再具备持续维护的基础条件。
 
-进迭时空已基于 **Ubuntu 24.04 LTS**，并结合 **RISC-V 架构进行深度优化**，推出新一代系统 **Bianbu V2.x**。为统一版本规划、保障系统安全性与长期可维护性，现正式宣布：
+进迭时空已基于 **Ubuntu 24.04 LTS**，并结合 RISC-V 架构进行深度优化，推出新一代系统 **Bianbu V2.x**。为统一版本规划、保障系统安全性与长期可维护性，现正式宣布：
 
 **Bianbu V1.0 进入生命周期终止（End of Life，EOL）状态。**
 
@@ -27,7 +27,7 @@ Bianbu V1.0 基于 **Ubuntu 23.10** 构建。由于 Ubuntu 社区已停止对 23
 
 发布日期：2024-5-30
 
-Buildroot版本：[v1.0](https://sdk.spacemit.com/release_notes/bl-v1.0.y#v10%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
+Buildroot版本：[v1.0](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ### 主要组件
 
@@ -79,7 +79,7 @@ Buildroot版本：[v1.0](https://sdk.spacemit.com/release_notes/bl-v1.0.y#v10%E6
 
 发布日期：2024-6-19
 
-Buildroot版本：[v1.0.3](https://sdk.spacemit.com/release_notes/bl-v1.0.y#v103%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
+Buildroot版本：[v1.0.3](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ### 主要更新
 
@@ -92,7 +92,7 @@ Buildroot版本：[v1.0.3](https://sdk.spacemit.com/release_notes/bl-v1.0.y#v103
 
 发布日期：2024-6-26
 
-Buildroot版本：[v1.0.5](https://sdk.spacemit.com/release_notes/bl-v1.0.y#v105%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
+Buildroot版本：[v1.0.5](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ### 主要更新
 
@@ -103,31 +103,31 @@ Buildroot版本：[v1.0.5](https://sdk.spacemit.com/release_notes/bl-v1.0.y#v105
 
 发布日期：2024-7-11
 
-Buildroot版本：[v1.0.7](https://sdk.spacemit.com/release_notes/bl-v1.0.y#v107%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
+Buildroot版本：[v1.0.7](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ## V1.0.8
 
 发布日期：2024-7-16
 
-Buildroot版本：[v1.0.8](https://sdk.spacemit.com/release_notes/bl-v1.0.y#v108%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
+Buildroot版本：[v1.0.8](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ## V1.0.9
 
 发布日期：2024-7-20
 
-Buildroot版本：[v1.0.9](https://sdk.spacemit.com/release_notes/bl-v1.0.y#v109%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
+Buildroot版本：[v1.0.9](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ## V1.0.11
 
 发布日期：2024-8-1
 
-Buildroot版本：[v1.0.11](https://sdk.spacemit.com/release_notes/bl-v1.0.y#v1011%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
+Buildroot版本：[v1.0.11](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ## V1.0.12
 
 发布日期：2024-8-2
 
-Buildroot版本：[v1.0.12](https://sdk.spacemit.com/release_notes/bl-v1.0.y#v1012%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
+Buildroot版本：[v1.0.12](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ### 主要更新
 
@@ -137,7 +137,7 @@ Buildroot版本：[v1.0.12](https://sdk.spacemit.com/release_notes/bl-v1.0.y#v10
 
 发布日期：2024-8-16
 
-Buildroot版本：[v1.0.13](https://sdk.spacemit.com/release_notes/bl-v1.0.y#v1013%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
+Buildroot版本：[v1.0.13](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ### 主要更新
 
@@ -151,7 +151,7 @@ Buildroot版本：[v1.0.13](https://sdk.spacemit.com/release_notes/bl-v1.0.y#v10
 
 发布日期：2024-8-31
 
-Buildroot版本：[v1.0.14](https://sdk.spacemit.com/release_notes/bl-v1.0.y#v1014%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
+Buildroot版本：[v1.0.14](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ### 主要更新
 
@@ -162,7 +162,7 @@ Buildroot版本：[v1.0.14](https://sdk.spacemit.com/release_notes/bl-v1.0.y#v10
 
 发布日期：2024-9-7
 
-Buildroot版本：[v1.0.15](https://sdk.spacemit.com/release_notes/bl-v1.0.y#v1015%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
+Buildroot版本：[v1.0.15](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/release_notes/history/bl-v1.0.y.md)
 
 ### 主要更新
 

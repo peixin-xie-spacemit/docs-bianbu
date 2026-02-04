@@ -25,7 +25,7 @@ Signed-By: /usr/share/keyrings/bianbu-archive-keyring.gpg
 
 **发布日期：** 2024-12-11
 
-对应的 **Buildroot** 版本：[v2.0.4](https://sdk.spacemit.com/release_notes/bl-v2.0.y/#v204%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
+对应的 **Buildroot** 版本：[v2.0.4](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/release_notes/history/bl-v2.0.y.md)
 
 ### 主要更新
 
@@ -45,7 +45,7 @@ Signed-By: /usr/share/keyrings/bianbu-archive-keyring.gpg
 
 **发布日期：** 2024-11-11
 
-对应的 **Buildroot** 版本：[v2.0.2](https://sdk.spacemit.com/release_notes/bl-v2.0.y/#v202%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
+对应的 **Buildroot** 版本：[v2.0.2](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/release_notes/history/bl-v2.0.y.md)
 
 ### 主要更新
 
@@ -58,7 +58,7 @@ Signed-By: /usr/share/keyrings/bianbu-archive-keyring.gpg
 
 发布日期：2024-10-28
 
-对应的 **Buildroot** 版本：[v2.0.1](https://sdk.spacemit.com/release_notes/bl-v2.0.y/#v201%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
+对应的 **Buildroot** 版本：[v2.0.1](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/release_notes/history/bl-v2.0.y.md)
 
 ### 主要更新
 
@@ -68,7 +68,7 @@ Signed-By: /usr/share/keyrings/bianbu-archive-keyring.gpg
 
 **发布日期：** 2024-10-22
 
-对应的 **Buildroot** 版本：[v2.0](https://sdk.spacemit.com/release_notes/bl-v2.0.y/#v20%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
+对应的 **Buildroot** 版本：[v2.0](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/release_notes/history/bl-v2.0.y.md)
 
 ### 主要更新
 
@@ -82,7 +82,7 @@ Signed-By: /usr/share/keyrings/bianbu-archive-keyring.gpg
 
 **发布日期：** 2024-9-30
 
-对应的 **Buildroot** 版本：[v2.0rc7](https://sdk.spacemit.com/release_notes/bl-v2.0.y/#v20rc7%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
+对应的 **Buildroot** 版本：[v2.0rc7](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/release_notes/history/bl-v2.0.y.md)
 
 ### 主要更新
 
@@ -94,7 +94,7 @@ Signed-By: /usr/share/keyrings/bianbu-archive-keyring.gpg
 
 **发布日期：** 2024-9-7
 
-对应的 **Buildroot** 版本：[v2.0rc6](https://sdk.spacemit.com/release_notes/bl-v2.0.y/#v20rc6%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E)
+对应的 **Buildroot** 版本：[v2.0rc6](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/release_notes/history/bl-v2.0.y.md)
 
 ### 主要更新
 
@@ -107,7 +107,7 @@ Signed-By: /usr/share/keyrings/bianbu-archive-keyring.gpg
 
 **发布日期：** 2024-9-2
 
-对应的 **Buildroot** 版本：[v2.0rc5](https://sdk.spacemit.com/release_notes/bl-v2.0.y/#v20rc5%E6%9B%B4%E6%96%B0%E8%AF%B4%E6%98%8E%E5%BC%80%E5%8F%91%E4%B8%AD)
+对应的 **Buildroot** 版本：[v2.0rc5](https://www.spacemit.com/community/document/info?lang=zh&nodepath=software/SDK/buildroot/release_notes/history/bl-v2.0.y.md)
 
 ### 主要更新
 

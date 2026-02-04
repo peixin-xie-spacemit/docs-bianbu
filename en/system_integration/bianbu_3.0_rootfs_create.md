@@ -295,7 +295,7 @@ mke2fs -d bootfs -L bootfs -t ext4 -U $UUID_BOOTFS bootfs.ext4 "256M"
 mke2fs -d $TARGET_ROOTFS -L rootfs -t ext4 -N 524288 -U $UUID_ROOTFS rootfs.ext4 "2048M"
 ```
 
-Note: Regarding rootfs.ext4 size. minimal recommends 2048M, bianbu gnome version recommends 8192M, bianbu lxqt version recommends 6144M
+Note: Regarding rootfs.ext4 size. minimal recommends 2048M, Bianbu GNOME version recommends 8192M, Bianbu LXQt version recommends 6144M
 
 At this point, you can see two partition images in the current directory, bootfs.ext4 and rootfs.ext4, which can be flashed to the board using fastboot.
 

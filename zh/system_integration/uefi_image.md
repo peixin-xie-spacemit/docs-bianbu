@@ -6,7 +6,7 @@ sidebar_position: 7
 
 截至2025年07月01日, 当前只支持 **使用 spinor 启动的产品** 搭配 UEFI 固件。  
 本文基于 **Bianbu Minimal 2.2** 环境，适用于 MUSE Pi Pro 板卡。  
-教你如何一步一步制作基于EDK2的 RISC-V UEFI 固件，并制作可以刷机的系统镜像（支持 Titan 固件包 + SD 卡镜像）。
+本指南教你如何一步一步制作基于EDK2的 RISC-V UEFI 固件，并制作可以刷机的系统镜像（支持 Titan 固件包 + SD 卡镜像）。
 
 ## 文档内容概览
 
@@ -21,7 +21,7 @@ sidebar_position: 7
 
 ## 环境要求
 
-1. **准备宿主机的环境**, 制作  的 ROOTFS 请参考 [Bianbu 2.1/2.2 ROOTFS制作](https://bianbu.spacemit.com/system_integration/bianbu_2.1_rootfs_create) **完成 Bianbu Minimal 2.2 ROOTFS 制作**。
+1. **准备宿主机的环境**, 制作  的 ROOTFS 请参考 [Bianbu 2.1/2.2 ROOTFS制作](bianbu_2.1_rootfs_create.md) **完成 Bianbu Minimal 2.2 ROOTFS 制作**。
 
 2. **设置工作目录**
    设置工作空间环境变量，分别管理UEFI固件编译和镜像制作：
@@ -50,7 +50,7 @@ sidebar_position: 7
 
 ## UEFI 固件制作
 
-在制作UEFI系统镜像之前，我们需要先制作UEFI固件。这是因为UEFI固件是系统启动的基础组件，它负责硬件初始化和引导加载程序的启动。传统的U-Boot启动方式需要特定的U-Boot镜像，而UEFI启动方式则需要符合UEFI标准的固件镜像。通过先制作UEFI固件（edk2.itb），我们才能替换掉传统的U-Boot镜像，从而实现UEFI标准的启动流程。
+在制作 UEFI 系统镜像之前，我们需要先制作 UEFI 固件。这是因为 UEFI 固件是系统启动的基础组件，它负责硬件初始化和引导加载程序的启动。传统的 U-Boot 启动方式需要特定的 U-Boot 镜像，而 UEFI 启动方式则需要符合 UEFI 标准的固件镜像。通过先制作 UEFI 固件（edk2.itb），我们才能替换掉传统的 U-Boot 镜像，从而实现 UEFI 标准的启动流程。
 
 1. **安装编译依赖**
 
@@ -60,7 +60,7 @@ sidebar_position: 7
 
 2. **获取 edk2 项目代码**
 
-   edk2 是 TianoCore 项目的核心仓库，提供UEFI固件开发的基础框架和通用代码；edk2-platforms 是平台特定的代码仓库，包含各种硬件平台的支持代码和配置文件。两者配合使用来构建针对特定硬件平台的UEFI固件。
+   edk2 是 TianoCore 项目的核心仓库，提供 UEFI 固件开发的基础框架和通用代码；edk2-platforms 是平台特定的代码仓库，包含各种硬件平台的支持代码和配置文件。两者配合使用来构建针对特定硬件平台的 UEFI 固件。
 
    ```shell
    cd $UEFI_WORKSPACE
@@ -70,7 +70,7 @@ sidebar_position: 7
    git -C edk2-platforms submodule update --init
    ```
 
-3. **编译UEFI固件**
+3. **编译 UEFI 固件**
 
    ```shell
    cd $UEFI_WORKSPACE
@@ -106,15 +106,15 @@ sidebar_position: 7
 
 ## GRUB 安装与配置
 
-在UEFI固件制作完成后，我们需要安装和配置GRUB引导器。GRUB是一个多重引导程序，它在UEFI固件初始化硬件后接管系统启动流程。UEFI固件会查找并加载存储在 ESP（EFI System Partition）分区中的GRUB引导器，然后由GRUB根据配置文件加载Linux内核、设备树和初始化镜像。因此，我们需要创建ESP分区、安装GRUB到ESP分区，并配置GRUB来正确识别和启动我们的Bianbu系统。
+在 UEFI 固件制作完成后，我们需要安装和配置 GRUB 引导器。GRUB 是一个多重引导程序，它在 UEFI 固件初始化硬件后接管系统启动流程。UEFI 固件会查找并加载存储在 ESP（EFI System Partition）分区中的 GRUB 引导器，然后由 GRUB 根据配置文件加载Linux 内核、设备树和初始化镜像。因此，我们需要创建 ESP 分区、安装 GRUB 到 ESP 分区，并配置 GRUB 来正确识别和启动我们的 Bianbu 系统。
 
 1. **环境准备**
 
-   下载并烧录 Bianbu 2.2 镜像到 MUSE Pi Pro,建议使用 [Bianbu GNOME 2.2版本的固件](https://archive.spacemit.com/image/k1/version/bianbu/v2.2/bianbu-24.04-desktop-k1-v2.2-release-20250430190125.zip)，镜像获取方式及 Titan 烧录工具使用方法可参见: [镜像](https://bianbu.spacemit.com/image)
+   下载并烧录 Bianbu 2.2 镜像到 MUSE Pi Pro,建议使用 [Bianbu GNOME 2.2版本的固件](https://archive.spacemit.com/image/k1/version/bianbu/v2.2/bianbu-24.04-desktop-k1-v2.2-release-20250430190125.zip)，镜像获取方式及 Titan 烧录工具使用方法可参见: [固件制作指南](image.md)
 
    烧录系统后，请**确保系统能够正常连接网络且网络**，因为制作分区文件的过程中需要下载软件包。
 
-2. **创建ESP分区文件（给 GRUB 引导用）**
+2. **创建 ESP 分区文件（给 GRUB 引导用）**
 
    在 MUSE Pi Pro 设备上，进入 Bianbu 2.2 系统后，执行以下命令制作ESP分区文件。
 
@@ -424,7 +424,7 @@ mke2fs -d bootfs -L bootfs -t ext4 -U $UUID_BOOTFS bootfs.ext4 "256M"
 mke2fs -d rootfs -L rootfs -t ext4 -N 524288 -U $UUID_ROOTFS rootfs.ext4 "2048M"
 ```
 
-需要注意的是，因为这里制作的是 Bianbu Minimal, 文件系统体积会比较小，所以设置 `rootfs.ext4` 文件系统大小为 2048M。如果是制作 Bianbu GNOME桌面版本 或 Bianbu LXQt桌面版本，请根据实际情况调整文件系统大小，例如 10240M。
+需要注意的是，因为这里制作的是 Bianbu Minimal, 文件系统体积会比较小，所以设置 `rootfs.ext4` 文件系统大小为 2048M。如果是制作 Bianbu GNOME 桌面版本 或 Bianbu LXQt 桌面版本，请根据实际情况调整文件系统大小，例如 10240M。
 
 ## 制作 Titan 固件包
 
@@ -558,7 +558,7 @@ mke2fs -d rootfs -L rootfs -t ext4 -N 524288 -U $UUID_ROOTFS rootfs.ext4 "2048M"
    zip -r ../bianbu-custom.zip *
    ```
 
-## SD卡镜像制作
+## SD 卡镜像制作
 
 如果需要制作可直接写入SD卡的镜像文件，可以使用 **genimage** 工具：
 

@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # 固件制作指南
 
-## Titan固件
+## Titan 固件
 
 1. 安装依赖
 
@@ -45,9 +45,9 @@ sidebar_position: 6
    zip -r ../bianbu-custom.zip *
    ```
 
-## SDCARD镜像
+## SDCARD 镜像
 
-下面介绍如何使用genimage制作SDCARD镜像。
+下面介绍如何使用 genimage 制作 SDCARD 镜像。
 
 1. 安装依赖
 
@@ -87,7 +87,7 @@ sidebar_position: 6
    python3 $TMP/gen_imgcfg.py -i $TMP/partition_universal.json -n bianbu-custom.sdcard -o $TMP/genimage.cfg
    ```
    
-4. 生成SDCARD镜像
+4. 生成 SDCARD 镜像
 
    ```shell
    ROOTPATH_TMP="$(mktemp -d)"
