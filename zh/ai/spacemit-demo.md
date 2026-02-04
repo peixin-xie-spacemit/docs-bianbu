@@ -188,6 +188,6 @@ python 03_asr_demo.py
 
 - **官方文档**: 详细的使用说明和 API 文档
 - **问题反馈**: [Gitee Issues](https://gitee.com/bianbu/spacemit-demo/issues)
-- **社区交流**: SpacemiT 开发者社区
+- **社区交流**: [SpacemiT 开发者社区](https://www.spacemit.com/community)
 
 立即访问 [SpacemiT AI Demo 源码仓库](https://gitee.com/bianbu/spacemit-demo.git) 开始您的 AI 开发之旅！

@@ -25,7 +25,7 @@ Signed-By: /usr/share/keyrings/bianbu-archive-keyring.gpg
 
 **Release Date:** 2024-12-11
 
-The corresponding **Buildroot version:** [v2.0.4](https://sdk.spacemit.com/en/release_notes/bl-v2.0.y#v204-release-note)
+The corresponding **Buildroot version:** [v2.0.4](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/history/bl-v2.0.y.md)
 
 ### Major Updates
 
@@ -45,7 +45,7 @@ The corresponding **Buildroot version:** [v2.0.4](https://sdk.spacemit.com/en/re
 
 **Release Date:** 2024-11-11
 
-The corresponding **Buildroot version:**: [v2.0.2](https://sdk.spacemit.com/en/release_notes/bl-v2.0.y#v202-release-note)
+The corresponding **Buildroot version:**: [v2.0.2](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/history/bl-v2.0.y.md)
 
 ### Major Updates
 
@@ -58,7 +58,7 @@ The corresponding **Buildroot version:**: [v2.0.2](https://sdk.spacemit.com/en/r
 
 **Release Date:** 2024-10-28
 
-The corresponding **Buildroot version:** [v2.0.1](https://sdk.spacemit.com/en/release_notes/bl-v2.0.y#v201-release-note)
+The corresponding **Buildroot version:** [v2.0.1](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/history/bl-v2.0.y.md)
 
 ### Major Updates
 
@@ -68,7 +68,7 @@ The corresponding **Buildroot version:** [v2.0.1](https://sdk.spacemit.com/en/re
 
 **Release Date:** 2024-10-22
 
-The corresponding **Buildroot version:** [v2.0](https://sdk.spacemit.com/en/release_notes/bl-v2.0.y#v20-release-note)
+The corresponding **Buildroot version:** [v2.0](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/history/bl-v2.0.y.md)
 
 ### Major Updates
 
@@ -82,7 +82,7 @@ The corresponding **Buildroot version:** [v2.0](https://sdk.spacemit.com/en/rele
 
 **Release Date:** 2024-9-30
 
-The corresponding **Buildroot version:** [v2.0rc7](https://sdk.spacemit.com/en/release_notes/bl-v2.0.y#v20rc7-release-note)
+The corresponding **Buildroot version:** [v2.0rc7](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/history/bl-v2.0.y.md)
 
 ### Major Updates
 
@@ -94,7 +94,7 @@ The corresponding **Buildroot version:** [v2.0rc7](https://sdk.spacemit.com/en/r
 
 **Release Date:** 2024-9-7
 
-The corresponding **Buildroot version:** [v2.0rc6](https://sdk.spacemit.com/en/release_notes/bl-v2.0.y#v20rc6-release-note)
+The corresponding **Buildroot version:** [v2.0rc6](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/history/bl-v2.0.y.md)
 
 ### Major Updates
 
@@ -107,7 +107,7 @@ The corresponding **Buildroot version:** [v2.0rc6](https://sdk.spacemit.com/en/r
 
 **Release Date:** 2024-9-2
 
-The corresponding **Buildroot version:** [v2.0rc5](https://sdk.spacemit.com/en/release_notes/bl-v2.0.y#v20rc5-release-note)
+The corresponding **Buildroot version:** [v2.0rc5](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/history/bl-v2.0.y.md)
 
 ### Major Updates
 

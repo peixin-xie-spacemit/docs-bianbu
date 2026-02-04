@@ -25,9 +25,9 @@ Signed-By: /usr/share/keyrings/bianbu-archive-keyring.gpg
 
 **Release Date:** 2025-3-13
 
-The corresponding **Buildroot version:** [v2.1](https://sdk.spacemit.com/en/release_notes/bl-v2.1.y#v21-release-note)
+The corresponding **Buildroot version:** [v2.1](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/history/bl-v2.1.y.md)
 
-### Key Updates
+### Major updates
 
 **AI**
 
@@ -39,9 +39,9 @@ The corresponding **Buildroot version:** [v2.1](https://sdk.spacemit.com/en/rele
 
 **Release Date:** 2025-2-11
 
-The corresponding **Buildroot version:** [v2.1](https://sdk.spacemit.com/en/release_notes/bl-v2.1.y#v21-release-note)
+The corresponding **Buildroot version:** [v2.1](https://www.spacemit.com/community/document/info?lang=en&nodepath=software/SDK/buildroot/release_notes/history/bl-v2.1.y.md)
 
-### Key Updates
+### Major updates
 
 **AI**
 

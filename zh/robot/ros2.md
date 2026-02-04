@@ -110,7 +110,7 @@ sudo apt install ros-humble-ros-base
 
 安装额外的 RMW 实现（可选）
 
-ROS2 使用的默认中间件是Fast DDS ，但可以在运行时替换中间件（RMW）。请参阅有关如何使用多个 RMW 的[指南](https://docs.ros.org/en/humble/How-To-Guides/Working-with-multiple-RMW-implementations.html)
+ROS2 使用的默认中间件是Fast DDS ，但可以在运行时替换中间件（RMW）。请参阅有关如何使用多个 RMW 的 [指南](https://docs.ros.org/en/humble/How-To-Guides/Working-with-multiple-RMW-implementations.html)
 
 ### 获取 ROS2 环境
 
@@ -295,7 +295,7 @@ sudo apt install ros-jazzy-ros-base
 
 安装额外的 RMW 实现（可选）
 
-ROS2 使用的默认中间件是Fast DDS ，但可以在运行时替换中间件（RMW）。请参阅有关如何使用多个 RMW 的[指南](https://docs.ros.org/en/jazzy/How-To-Guides/Working-with-multiple-RMW-implementations.html)
+ROS2 使用的默认中间件是Fast DDS ，但可以在运行时替换中间件（RMW）。请参阅有关如何使用多个 RMW 的 [指南](https://docs.ros.org/en/jazzy/How-To-Guides/Working-with-multiple-RMW-implementations.html)
 
 ### 设置环境
 

@@ -187,6 +187,6 @@ python 03_asr_demo.py
 
 - **Official Documentation**: Detailed usage instructions and API documentation
 - **Issue Reporting**: [Gitee Issues](https://gitee.com/bianbu/spacemit-demo/issues)
-- **Community Discussion**: SpacemiT Developer Community
+- **Community Discussion**: [SpacemiT Developer Community](https://www.spacemit.com/community)
 
 Visit the [SpacemiT AI Demo Source Repository](https://gitee.com/bianbu/spacemit-demo.git) now to start your AI development journey!

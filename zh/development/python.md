@@ -143,7 +143,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ### Python 版本支持
 
-| **Python解释器版本** | **支持情况** |
+| Python解释器版本 | 支持情况 |
 | :------------------: | :----------: |
 |     Python 3.12      |   长期支持   |
 |     Python 3.13      |   长期支持   |
