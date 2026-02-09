@@ -36,7 +36,7 @@ gdb /usr/bin/bash /tmp/crash/CoreDump
 
 #### 前提条件
 
-配置工单系统的 [api key](https://ticket.spacemit.com/my/api_key) 到 `~/.config/apport/redmine.credentials` 文件中
+[登录进迭时空统一认证中心](https://developer.spacemit.com/auth/login?client_id=redmine&redirect_uri=http://ticket.spacemit.com/oauth/spacemit/callback&response_type=code&scope=all) 并配置工单系统的 [api key](https://ticket.spacemit.com/my/api_key) 到 `~/.config/apport/redmine.credentials` 文件中
 
 #### 上传
 

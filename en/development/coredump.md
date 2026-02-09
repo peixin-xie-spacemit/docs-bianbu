@@ -36,7 +36,7 @@ If you encounter a crash that you cannot resolve on your own, you can choose to 
 
 #### Prerequisites
 
-Configure the ticket system's [api key](https://ticket.spacemit.com/my/api_key) in the `~/.config/apport/redmine.credentials` file.
+First, [Login SpacemiT Auth Center](https://developer.spacemit.com/auth/login?client_id=redmine&redirect_uri=http://ticket.spacemit.com/oauth/spacemit/callback&response_type=code&scope=all), and then configure the ticket system's [api key](https://ticket.spacemit.com/my/api_key) in the `~/.config/apport/redmine.credentials` file.
 
 #### Upload
 
