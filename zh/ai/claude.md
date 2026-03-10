@@ -5,12 +5,12 @@
  * 
  * @Author: David(qiang.fu@spacemit.com)
  * @Date: 2026-03-09 14:26:58
- * @LastEditTime: 2026-03-09 16:26:22
+ * @LastEditTime: 2026-03-10 10:21:21
  * @FilePath: \doc\docs-bianbu\zh\ai\claude.md
  * @Description: 
 -->
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 # Claude Code
