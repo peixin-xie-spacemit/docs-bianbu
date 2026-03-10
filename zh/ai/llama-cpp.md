@@ -5,7 +5,7 @@
  * 
  * @Author: David(qiang.fu@spacemit.com)
  * @Date: 2026-02-28 14:50:46
- * @LastEditTime: 2026-03-02 11:23:35
+ * @LastEditTime: 2026-03-10 20:23:40
  * @FilePath: \doc\docs-bianbu\zh\ai\llama-cpp.md
  * @Description: 
 -->
@@ -48,6 +48,13 @@ sudo apt update
 sudo apt install llama.cpp-tools-spacemit
 ```
 
+**注意**：一些旧平台或者旧固件没有install llama.cpp-tools-spacemit包，可以尝试
+
+```bash
+sudo apt update
+sudo apt install llama-server
+```
+
 ### 下载模型
 
 根据芯片平台的算力下载合适参数的模型，K1平台推荐Qwen3-0.6B，下载方法如下：
@@ -77,6 +84,12 @@ wget https://www.modelscope.cn/models/unsloth/Qwen3-30B-A3B-Instruct-2507-GGUF/r
 ```bash
 llama-bench -m Qwen3-30B-A3B-Instruct-2507-Q4_0.gguf -t 8 -p 64 -n 64 -mmp 0 -fa 1
 ```
+参数说明：
+- -t:
+- -p:
+- -n:
+- -mmp:
+- -fa:
 
 输出结果如下：
 
