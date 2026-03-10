@@ -1,3 +1,14 @@
+<!--
+ * Copyright 2022-2023 SPACEMIT. All rights reserved.
+ * Use of this source code is governed by a BSD-style license
+ * that can be found in the LICENSE file.
+ * 
+ * @Author: David(qiang.fu@spacemit.com)
+ * @Date: 2026-03-09 17:28:38
+ * @LastEditTime: 2026-03-09 17:31:44
+ * @FilePath: \doc\docs-bianbu\zh\ai\index.md
+ * @Description: 
+-->
 ---
 slug: /ai
 sidebar_position: 6
@@ -20,6 +31,7 @@ Bianbu 支持运行主流的推理框架，并深度适配了 ONNX Runtime，可
 ## 3. Agent
 
 - [openClaw](openclaw.md)
+- [OpenCode](opencode.md)
 - [Claude Code](claude.md)
 - [LocalAI](localai.md)
 - [Open-WebUI](openwebui.md)
