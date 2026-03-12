@@ -5,7 +5,7 @@
  * 
  * @Author: David(qiang.fu@spacemit.com)
  * @Date: 2026-02-28 14:50:46
- * @LastEditTime: 2026-03-11 10:37:00
+ * @LastEditTime: 2026-03-11 15:48:14
  * @FilePath: \doc\docs-bianbu\zh\ai\llama-cpp.md
  * @Description: 
 -->
@@ -18,7 +18,7 @@ sidebar_position: 2
 
 ![](../static/llama-cpp-icon.png)
 
-**llama.cpp** 是一个用纯 C/C++ 写的开源推理框架，专门让 Llama 等 GGUF/GGML 格式的大语言模型能在本地 CPU/GPU（笔记本、手机、树莓派甚至浏览器）快速运行，而无需依赖重量级框架。
+**llama.cpp** 是一个用纯 C/C++ 写的开源推理框架，专门让 Llama 等 GGUF/GGML 格式的大语言模型能在本地 CPU/GPU（笔记本、手机、树莓派甚至浏览器）快速运行，而无需依赖重量级框架。(https://github.com/ggml-org/llama.cpp)
 
 ## 平台支持情况
 
@@ -48,7 +48,7 @@ sudo apt update
 sudo apt install llama.cpp-tools-spacemit
 ```
 
-**注意**：一些旧平台或者旧固件没有install llama.cpp-tools-spacemit包，可以尝试
+**注意**：一些旧平台或者旧固件没有llama.cpp-tools-spacemit包，可以尝试
 
 ```bash
 sudo apt update
@@ -133,7 +133,7 @@ llama-server -m Qwen3-30B-A3B-Instruct-2507-Q4_0.gguf -t 8 --host 127.0.0.1 --po
 ##### 本地API请求
 
 ```bash
-curl -X POST http://127.0.0.1:9090/v1/chat/completions \
+curl -X POST http://127.0.0.1:8080/v1/chat/completions \
   -H "Content-Type: application/json" \
   -d '{
         "model": "Qwen3-30B",
@@ -234,7 +234,7 @@ cd spacemit-llama.cpp.riscv64.0.0.5
 ##### 本地API请求
 
 ```bash
-curl -X POST http://127.0.0.1:9090/v1/chat/completions \
+curl -X POST http://127.0.0.1:8080/v1/chat/completions \
   -H "Content-Type: application/json" \
   -d '{
         "model": "Qwen3-30B",
