@@ -29,9 +29,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 ```
 
-### 2. 下载 npm 安装包
+### 2. 下载 npm 安装包 (如果你需要通过文件安装)
+如果你通过 https://www.npmjs.com/package 安装，可以不下载安装文件。
 
-点击下载：[npm安装包](https://archive.spacemit.com/spacemit-ai/openclaw/)
+点击下载：[npm安装包](https://archive.spacemit.com/spacemit-ai/openclaw/openclaw-2026.3.8.1.tgz)
 
 ![alt text](../static/image.png)
 
@@ -56,10 +57,17 @@ nvm use 22
 
 ### 4. 安装 openclaw
 
-运行以下命令:
+##### OpenClaw 的二种安装方式:
 
+执行以下命令，通过 npm 源安装 OpenClaw
 ```
-npm install -g --legacy-peer-deps ./openclaw-2026.3.9-riscv64.tgz
+npm i -g --legacy-peer-deps @dengxifeng/openclaw --force --registry=https://registry.npmjs.org/
+```
+
+
+通过下载的npm包安装
+```
+npm install -g --legacy-peer-deps ./openclaw-2026.3.8.1.tgz
 ```
 
 ### 5. 配置 openclaw
