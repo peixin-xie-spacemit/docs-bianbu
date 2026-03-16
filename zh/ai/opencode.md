@@ -1,5 +1,16 @@
+<!--
+ * Copyright 2022-2023 SPACEMIT. All rights reserved.
+ * Use of this source code is governed by a BSD-style license
+ * that can be found in the LICENSE file.
+ * 
+ * @Author: David(qiang.fu@spacemit.com)
+ * @Date: 2026-03-10 16:30:02
+ * @LastEditTime: 2026-03-16 17:11:23
+ * @FilePath: \doc\docs-bianbu\zh\ai\opencode.md
+ * @Description: 
+-->
 ---
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 # OpenCode

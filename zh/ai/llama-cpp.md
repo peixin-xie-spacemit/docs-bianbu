@@ -5,7 +5,7 @@
  * 
  * @Author: David(qiang.fu@spacemit.com)
  * @Date: 2026-02-28 14:50:46
- * @LastEditTime: 2026-03-11 15:48:14
+ * @LastEditTime: 2026-03-13 13:48:53
  * @FilePath: \doc\docs-bianbu\zh\ai\llama-cpp.md
  * @Description: 
 -->
@@ -18,7 +18,7 @@ sidebar_position: 2
 
 ![](../static/llama-cpp-icon.png)
 
-**llama.cpp** 是一个用纯 C/C++ 写的开源推理框架，专门让 Llama 等 GGUF/GGML 格式的大语言模型能在本地 CPU/GPU（笔记本、手机、树莓派甚至浏览器）快速运行，而无需依赖重量级框架。(https://github.com/ggml-org/llama.cpp)
+**llama.cpp** 是一个用纯 C/C++ 写的开源推理框架，专门让 Llama 等 GGUF/GGML 格式的大语言模型能在本地 CPU/GPU（笔记本、手机、树莓派甚至浏览器）快速运行，而无需依赖重量级框架。([https://github.com/ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp))
 
 ## 平台支持情况
 
@@ -29,13 +29,6 @@ sidebar_position: 2
 | K1 OpenHarmony5.0 | 不支持 |
 | K3 Bianbu LXQT/GNOME      | 支持        |
 | K3 Buildroot   | 支持 |
-
-目前支持5种量化格式的加速模型：
-- Q4_K_M
-- Q4_0
-- Q4_1
-- Q2_K
-- Q3_K
 
 ## Bianbu LXQT/GNOME环境使用说明
 
@@ -56,6 +49,13 @@ sudo apt install llama-server
 ```
 
 ### 下载模型
+
+目前支持5种量化格式的模型加速，下载gguf格式模型的时候，主要选择这几种量化格式的模型：
+- Q4_K_M
+- Q4_0
+- Q4_1
+- Q2_K
+- Q3_K
 
 根据芯片平台的算力下载合适参数的模型，K1平台推荐Qwen3-0.6B，下载方法如下：
 
@@ -249,3 +249,21 @@ curl -X POST http://127.0.0.1:8080/v1/chat/completions \
 ##### 浏览器请求
 
 Buildroot中无浏览器，暂未验证
+
+## FAQ
+
+### 是否支持VLM模型？
+
+开发中，请稍等待
+
+### 如何确定跑模型的时候用到了AI硬件加速？
+
+可以通过**htop**命令确认，如果跑模型的时候，CPU的8-15核有大量占用，说明用到了AI硬件加速
+
+### llama-cli的TPS为何比llama-bench和llama-server低一些？
+
+llama-cli在运行过程中，除了模型推理，还做了终端输出等功能，影响了TPS，并且实际项目中都是用llama-server，以llama-server为准
+
+### llama-server一般跑几个线程？
+
+如果对性能有要求，可以将所有的AI核跑满（K3跑8个，K1跑4个），如果需要跑多个llama-server，可以根据不同模型的算力要求分配合适的线程数量

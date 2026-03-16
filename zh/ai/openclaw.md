@@ -21,12 +21,13 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 
 ![alt text](../static/image-1.png)
 
-如果 nvm 找到，执行以下面的命令：
+如果 nvm 找不到，执行以下面的命令：
 
 ```
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+source ~/.bashrc
 ```
 
 ### 2. 下载 npm 安装包

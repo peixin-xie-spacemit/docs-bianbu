@@ -5,7 +5,7 @@
  * 
  * @Author: David(qiang.fu@spacemit.com)
  * @Date: 2026-03-10 09:43:19
- * @LastEditTime: 2026-03-10 10:21:14
+ * @LastEditTime: 2026-03-16 17:12:55
  * @FilePath: \doc\docs-bianbu\zh\ai\index.md
  * @Description: 
 -->
@@ -31,7 +31,7 @@ sidebar_position: 6
 
 Bianbu 支持运行主流的推理框架，并深度适配了 ONNX Runtime，可以使用 ONNX Runtime 的 API 开发 AI 应用，从而获得扩展 AI 指令加速。
 
-- [ONNX Runtime](onnxruntime.md)
+- [ONNXRuntime](onnxruntime.md)
 - [llama.cpp](llama-cpp.md)
 - [Ollama](ollama.md)
 
@@ -44,9 +44,10 @@ Bianbu 支持运行主流的推理框架，并深度适配了 ONNX Runtime，可
 ### 3.1. openClaw家族
 - [openClaw](openclaw.md)
 - [nanobot](nanobot.md)
+- [picoClaw](picoclaw.md)
 
 ### 3.2. AI Coding
-- [Claude Code](claude.md)
+- [ClaudeCode](claude.md)
 - [OpenCode](opencode.md)
 
 ### 3.3. 其他
