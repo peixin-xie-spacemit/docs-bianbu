@@ -4,8 +4,19 @@
  * that can be found in the LICENSE file.
  * 
  * @Author: David(qiang.fu@spacemit.com)
+ * @Date: 2026-03-17 11:27:55
+ * @LastEditTime: 2026-03-17 17:38:28
+ * @FilePath: \doc\docs-bianbu\zh\ai\index.md
+ * @Description: 
+-->
+<!--
+ * Copyright 2022-2023 SPACEMIT. All rights reserved.
+ * Use of this source code is governed by a BSD-style license
+ * that can be found in the LICENSE file.
+ * 
+ * @Author: David(qiang.fu@spacemit.com)
  * @Date: 2026-03-10 09:43:19
- * @LastEditTime: 2026-03-16 17:12:55
+ * @LastEditTime: 2026-03-17 16:18:25
  * @FilePath: \doc\docs-bianbu\zh\ai\index.md
  * @Description: 
 -->
@@ -53,9 +64,11 @@ Bianbu 支持运行主流的推理框架，并深度适配了 ONNX Runtime，可
 ### 3.3. 其他
 - [LocalAI](localai.md)
 - [Open-WebUI](openwebui.md)
+- [langchain](langchain.md)
+
 
 ## 4. Application
 
 - [知了(zenow)](zenow.md)
 - [与会(yumeet)](yumeet.md)
-- [灵狐](vlm.md)
+- [灵狐(keenfox)](keenfox.md)

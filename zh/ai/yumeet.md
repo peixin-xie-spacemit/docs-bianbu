@@ -5,7 +5,7 @@
  * 
  * @Author: David(qiang.fu@spacemit.com)
  * @Date: 2026-03-16 17:09:25
- * @LastEditTime: 2026-03-16 17:11:53
+ * @LastEditTime: 2026-03-17 17:38:37
  * @FilePath: \doc\docs-bianbu\zh\ai\yumeet.md
  * @Description: 
 -->
@@ -21,7 +21,7 @@
  * @Description: 
 -->
 ---
-sidebar_position: 13
+sidebar_position: 14
 ---
 
 # 与会（yumeet）
