@@ -278,21 +278,16 @@ K3：（数据截至 2026/3/10，还在优化中，敬请关注）
 
 |  模型大类   |       具体模型        |   输入大小    | 数据类型 | 帧率(4核) | 帧率(8核) |
 | :---------: | :-------------------: | :-----------: | :------: | :-------: | :-------: |
-|   resnet    |       resnet50        | [1,3,224,224] |   int8   |   131.9   |           |
-|   arcface   | arcface_mobilefacenet | [1,3,112,112] |   int8   |    49     |           |
-| yolov5-face |     yolov5n-face      | [1,3,640,640] |   int8   |   28.8    |           |
-|   yolov8    |        yolov8n        | [1,3,640,640] |   int8   |   55.6    |           |
-|             |        yolov8s        | [1,3,640,640] |   int8   |   27.5    |           |
-|             |        yolov8m        | [1,3,640,640] |   int8   |   19.6    |           |
-| yolov8-pose |     yolov8n-pose      | [1,3,640,640] |   int8   |   45.3    |           |
-|             |     yolov8s-pose      | [1,3,640,640] |   int8   |   30.8    |           |
-|             |     yolov8m-pose      | [1,3,640,640] |   int8   |   17.9    |           |
-| yolov8-seg  |      yolov8n-seg      | [1,3,640,640] |   int8   |   24.1    |           |
-|             |      yolov8s-seg      | [1,3,640,640] |   int8   |   13.9    |           |
-|             |      yolov8m-seg      | [1,3,640,640] |   int8   |    8.5    |           |
-|   yolo11    |        yolo11n        | [1,3,640,640] |   int8   |    9.5    |           |
-|             |        yolo11s        | [1,3,640,640] |   int8   |    7.1    |           |
-|             |        yolo11m        | [1,3,640,640] |   int8   |    4.0    |           |
+|   resnet    |       resnet50        | [1,3,224,224] |   int8   |   129.0   |           |
+|   arcface   | arcface_mobilefacenet | [1,3,112,112] |   int8   |   50.9    |           |
+| yolov5-face |     yolov5n-face      | [1,3,640,640] |   int8   |   30.9    |           |
+|   yolov8    |        yolov8n        | [1,3,640,640] |   int8   |   59.8    |           |
+|             |        yolov8s        | [1,3,640,640] |   int8   |   37.2    |           |
+|             |        yolov8m        | [1,3,640,640] |   int8   |   19.8    |           |
+| yolov8-pose |     yolov8n-pose      | [1,3,640,640] |   int8   |   52.4    |           |
+|             |     yolov8s-pose      | [1,3,640,640] |   int8   |   33.0    |           |
+|             |     yolov8m-pose      | [1,3,640,640] |   int8   |   18.6    |           |
+|   yolo11    |        yolo11n        | [1,3,640,640] |   int8   |   44.1    |           |
 
 ### 6.2 ASR
 
