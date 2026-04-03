@@ -6,6 +6,16 @@ sidebar_position: 11
 
 **Open-WebUI**（原 Ollama WebUI）是一个开源、可自托管的 Web 管理工具，专为本地或私有化部署的大型语言模型（LLM）设计。其核心目标是提供与 ChatGPT 类似的交互体验，同时支持离线运行和高度定制化功能。
 
+## 平台支持情况
+
+| 平台&系统     | 是否支持加速 |
+|----------|------------|
+| K1 Bianbu LXQT/GNOME       | 支持        |
+| K1 Buildroot   | 不支持 |
+| K1 OpenHarmony5.0 | 不支持 |
+| K3 Bianbu LXQT/GNOME      | 不支持        |
+| K3 Buildroot   | 不支持 |
+
 ## 安装
 
 为了简化您在 K1 上使用大语言模型的流程，我们在 K1 上制作了 Open-WebUI deb 软件包，可一键安装使用：

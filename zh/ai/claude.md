@@ -5,7 +5,7 @@
  * 
  * @Author: David(qiang.fu@spacemit.com)
  * @Date: 2026-03-09 14:26:58
- * @LastEditTime: 2026-03-16 17:12:26
+ * @LastEditTime: 2026-03-18 20:44:10
  * @FilePath: \doc\docs-bianbu\zh\ai\claude.md
  * @Description: 
 -->
@@ -16,6 +16,16 @@ sidebar_position: 8
 # Claude Code
 
 **Claude Code** 是一个用于智能体编程的命令行工具,由**Anthropic**开发。它允许开发者通过命令行界面与 Claude AI 进行交互,实现代码生成、调试、重构等智能编程辅助功能。
+
+## 平台支持情况
+
+| 平台&系统     | 是否支持 |
+|----------|------------|
+| K1 Bianbu LXQT/GNOME       | 不支持        |
+| K1 Buildroot   | 不支持 |
+| K1 OpenHarmony5.0 | 不支持 |
+| K3 Bianbu LXQT/GNOME      | 支持        |
+| K3 Buildroot   | 不支持 |
 
 ## 1. 安装
 
