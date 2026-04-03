@@ -5,7 +5,7 @@
  * 
  * @Author: David(qiang.fu@spacemit.com)
  * @Date: 2026-03-10 16:30:02
- * @LastEditTime: 2026-03-16 17:11:23
+ * @LastEditTime: 2026-03-18 20:45:01
  * @FilePath: \doc\docs-bianbu\zh\ai\opencode.md
  * @Description: 
 -->
@@ -16,6 +16,16 @@ sidebar_position: 9
 # OpenCode
 
 OpenCode 是一款开源的 AI 编程助手（AI coding agent），支持在终端、桌面应用和主流 IDE 中通过自然语言交互，帮助开发者完成代码编写、调试、重构、项目分析等任务‌。它兼容多种大语言模型（如 Claude、GPT-4、Qwen 等），并通过独特的双模式工作流提升开发效率。‌‌
+
+## 平台支持情况
+
+| 平台&系统     | 是否支持 |
+|----------|------------|
+| K1 Bianbu LXQT/GNOME       | 不支持        |
+| K1 Buildroot   | 不支持 |
+| K1 OpenHarmony5.0 | 不支持 |
+| K3 Bianbu LXQT/GNOME      | 支持        |
+| K3 Buildroot   | 不支持 |
 
 ## 1. 安装
 
