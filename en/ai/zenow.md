@@ -153,9 +153,9 @@ The app will automatically create a conversation session, supporting multi-turn 
 
 #### Chat with Knowledge Base
 
-1. Click the knowledge base icon in the conversation interface
-2. Select the knowledge base to use
-3. Enter your question, and the AI will answer based on the knowledge base content
+1. Select a new conversation or choose a history session
+2. In the input box, type @, then select the knowledge base you want to use from the selection menu
+3. Enter your question and press Enter, the AI will answer based on the knowledge base content
 
 ![](../static/zenow_14.jpg)
 ![](../static/zenow_15.jpg)
