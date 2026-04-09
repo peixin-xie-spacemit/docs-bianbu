@@ -6,13 +6,11 @@ sidebar_position: 13
 
 ## 平台支持情况
 
-| 平台&系统     | 是否支持加速 |
-|----------|------------|
-| K1 Bianbu LXQT/GNOME       | 不支持        |
-| K1 Buildroot   | 不支持 |
-| K1 OpenHarmony5.0 | 不支持 |
-| K3 Bianbu LXQT/GNOME      | 支持        |
-| K3 Buildroot   | 不支持 |
+|      平台 & 系统       |       是否支持加速      |
+|-----------------------|-----------------------|
+| K1 Buildroot          | ❌ 不支持              |
+| K1 OpenHarmony5.0     | ❌ 不支持              |
+| K3 Bianbu LXQT/GNOME  | ✅ 支持                |
 
 ## 安装
 
@@ -35,7 +33,7 @@ rustc --version
 ![](../static/rust-install.png)
 
 ### 1.2. 安装langchain
- 
+
 ```bash
 python3 -m venv ./llamaindex_venv
 source llamaindex_venv/bin/activate

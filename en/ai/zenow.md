@@ -17,12 +17,10 @@ sidebar_position: 9
 ## Platform Support
 
 | Platform & System     | Hardware Acceleration |
-|----------|------------|
-| K1 Bianbu LXQT/GNOME       | ❌ Not Supported        |
-| K1 Buildroot   | ❌ Not Supported |
-| K1 OpenHarmony5.0 | ❌ Not Supported |
-| K3 Bianbu LXQT/GNOME      | ✅ Supported        |
-| K3 Buildroot   | ❌ Not Supported |
+|-----------------------|-----------------------|
+| K1 Buildroot          | ❌ Not Supported      |
+| K1 OpenHarmony5.0     | ❌ Not Supported      |
+| K3 Bianbu LXQT/GNOME  | ✅ Supported          |
 
 ## Technical Architecture
 

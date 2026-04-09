@@ -2,12 +2,12 @@
  * Copyright 2022-2023 SPACEMIT. All rights reserved.
  * Use of this source code is governed by a BSD-style license
  * that can be found in the LICENSE file.
- * 
+ *
  * @Author: David(qiang.fu@spacemit.com)
  * @Date: 2026-03-16 17:10:31
  * @LastEditTime: 2026-03-18 20:45:44
  * @FilePath: \doc\docs-bianbu\zh\ai\picoclaw.md
- * @Description: 
+ * @Description:
 -->
 ---
 sidebar_position: 7
@@ -17,13 +17,11 @@ sidebar_position: 7
 
 ## 平台支持情况
 
-| 平台&系统     | 是否支持 |
-|----------|------------|
-| K1 Bianbu LXQT/GNOME       | 不支持        |
-| K1 Buildroot   | 不支持 |
-| K1 OpenHarmony5.0 | 不支持 |
-| K3 Bianbu LXQT/GNOME      | 支持        |
-| K3 Buildroot   | 不支持 |
+|      平台 & 系统       |       是否支持加速      |
+|-----------------------|-----------------------|
+| K1 Buildroot          | ❌ 不支持              |
+| K1 OpenHarmony5.0     | ❌ 不支持              |
+| K3 Bianbu LXQT/GNOME  | ✅ 支持                |
 
 ## 1. 下载Go
 

@@ -8,13 +8,11 @@ sidebar_position: 11
 
 ## 平台支持情况
 
-| 平台&系统     | 是否支持加速 |
-|----------|------------|
-| K1 Bianbu LXQT/GNOME       | 支持        |
-| K1 Buildroot   | 不支持 |
-| K1 OpenHarmony5.0 | 不支持 |
-| K3 Bianbu LXQT/GNOME      | 不支持        |
-| K3 Buildroot   | 不支持 |
+|      平台 & 系统       |       是否支持加速      |
+|-----------------------|-----------------------|
+| K1 Buildroot          | ❌ 不支持              |
+| K1 OpenHarmony5.0     | ❌ 不支持              |
+| K3 Bianbu LXQT/GNOME  | ✅ 支持                |
 
 ## 安装
 
