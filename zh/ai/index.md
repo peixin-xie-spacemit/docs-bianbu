@@ -46,9 +46,9 @@ Bianbu 支持运行主流的推理框架，并深度适配了 ONNX Runtime，可
 - [llama.cpp](llama-cpp.md)
 - [Ollama](ollama.md)
 
-## 2. Model Zoo
+## 2. AI SDK
 
-- [Model Zoo](model-zoo.md)
+- [AI SDK](ai-sdk.md)
 
 ## 3. Agent
 

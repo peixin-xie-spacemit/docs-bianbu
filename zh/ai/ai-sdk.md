@@ -2,37 +2,25 @@
 sidebar_position: 4
 ---
 
-# Model Zoo
+# SpacemiT AI SDK
 
 ## 1. 项目简介
 
-SpacemiT Model Zoo 是面向进迭时空 K 系列芯片适配的 AI 应用集合，提供：
+SpacemiT AI SDK是面向进迭时空 K 系列芯片打造的 AI 应用开发套件。它在保留原有多模态能力组件的基础上，进一步向上承接 Agent、AI Robot、AI Computer 等应用形态，提供统一的能力封装与接口接入方式，包括：
 
 - **计算机视觉（vision）**：检测/分类/分割/跟踪/人脸/姿态等，覆盖示例包括 `resnet`、`yolov8`、`yolov11`、`yolov8_seg`、`yolov8_pose`、`bytetrack`、`ocsort`、`yolov5-face`、`arcface`、`emotion` 等
 - **语音**：`VAD`（语音活动检测）、`ASR`（语音识别）、`TTS`（语音合成），提供可直接运行的 demo，便于单模块验证与联调
 - **自然语言（LLM）**：OpenAI 兼容接口对接（如 `llama-server`），提供 `llm_chat` 等示例便于快速体验与集成
 
-![](../static/model-zoo-arch.png)
+![](../static/ai-sdk-arch.png)
 
 
-**Model Zoo 关键目录速览：**
-- **`model_zoo/vision`**：计算机视觉 SDK + `examples/`（检测/分类/分割/跟踪/人脸/姿态等）
-- **`model_zoo/asr`**：语音识别 SDK（统一 API + 示例）
-- **`model_zoo/tts`**：语音合成 SDK（统一 API + 示例）
-- **`model_zoo/vad`**：语音活动检测 SDK（统一 API + 示例）
-- **`model_zoo/llm`**：大模型 SDK（OpenAI 兼容服务对接 + 示例）
+AI SDK 的各独立组件都封装了一层通用 API 接口，用于屏蔽底层复杂业务细节，让用户专注于上层应用开发。当前 AI SDK 对外主要提供两套接入方式：
 
-Model Zoo 的每个独立组件都封装了一层通用 API 接口，用于屏蔽底层复杂业务细节，让用户专注于上层应用开发。
+- **C++/Python 接口**：面向本地集成、二次开发与嵌入式部署，适合直接调用各能力组件 SDK，构建定制化应用。
+- **HTTP/WS 接口**：由 gateway 层统一对外暴露，适合跨语言、跨进程或分布式场景接入，便于将底层 AI 能力快速接入上层业务系统。
 
-**各组件对外头文件（C++ API 入口）：**
-
-- **vision**：`model_zoo/vision/include/vision_service.h`
-- **ASR**：`model_zoo/asr/include/asr_service.h`
-- **TTS**：`model_zoo/tts/include/tts_service.h`
-- **VAD**：`model_zoo/vad/include/vad_service.h`
-- **LLM**：`model_zoo/llm/include/llm_service.h`
-
-> **说明**：本文档从「顶层应用」视角提供 Model Zoo 的导航与快速上手。各组件仍在持续迭代，文档会随之更新，敬请关注。
+> **说明**：本文档从「顶层应用」视角提供 SpacemiT AI SDK 的导航与快速上手。各组件仍在持续迭代，文档会随之更新，敬请关注。
 
 ## 2. 构建编译
 
@@ -221,7 +209,9 @@ llm_chat "你好" "https://api.deepseek.com" "deepseek-chat" "You are a helpful 
 
 ## 4. 应用开发
 
-Model Zoo 各组件面向应用侧提供 **稳定的 C++ 头文件入口**（多数为 PIMPL 设计，便于集成与二进制发布），并提供对应的 Python 绑定与示例。应用侧建议先在 SDK workspace 中编译产物到 `output/staging`，再基于 staging 进行联调与部署。
+### 4.1 C++/Python
+
+SpacemiT AI SDK 各组件面向应用侧提供 **稳定的 C++ 头文件入口**（多数为 PIMPL 设计，便于集成与二进制发布），并提供对应的 Python 绑定与示例。应用侧建议先在 SDK workspace 中编译产物到 `output/staging`，再基于 staging 进行联调与部署。
 
 - **vision**：`vision_service.h`（详见 [vision/README.md](https://github.com/spacemit-com/model-zoo-vision/blob/main/README.md) 的「应用开发」章节）
 - **ASR**：`asr_service.h`（详见 [asr/README.md](https://github.com/spacemit-com/model-zoo-asr/blob/main/README.md) 的「应用开发」章节）
@@ -231,67 +221,16 @@ Model Zoo 各组件面向应用侧提供 **稳定的 C++ 头文件入口**（多
 
 如果你的目标是做“对话式应用”，建议直接从 `omni_agent` 入手：先跑通 `voice_chat`，再按需替换/裁剪 ASR、TTS、LLM 后端或接入 MCP 工具。
 
-## 5. 附表：性能数据
+### 4.2 HTTP/WS接口
 
-性能数据通常随模型类型、线程数、平台及编译选项变化相关。以下为当前 `model_zoo` 各组件 README 中提供的阶段性实测数据汇总（基于 K1 / K3 平台，具体测试方法见各组件 README）。
+除 C++/Python SDK 直连方式外，AI SDK 还在 gateway 层提供统一的 `HTTP/WS` 接口，用于对外暴露底层 AI 能力。该接口目前仍在开发中，相关能力与文档将持续补充完善。
 
-### 5.1 Vision
+- **HTTP 接口**：适合请求-响应式调用场景，便于业务系统通过标准 REST/HTTP 方式接入识别、推理、生成等能力。
+- **WebSocket 接口**：适合流式交互、实时推送和长连接场景，例如语音流处理、增量结果返回和对话类应用。
 
-> 说明：以下数据是基于K3 平台（4线程推理），按照组件中的 README 步骤实测。
+## 5. 性能数据
 
-K3：（数据截至 2026/3/10，还在优化中，敬请关注）
-
-|  模型大类   |       具体模型        |   输入大小    | 数据类型 | 帧率(4核) | 帧率(8核) |
-| :---------: | :-------------------: | :-----------: | :------: | :-------: | :-------: |
-|   resnet    |       resnet50        | [1,3,224,224] |   int8   |   129.0   |           |
-|   arcface   | arcface_mobilefacenet | [1,3,112,112] |   int8   |   50.9    |           |
-| yolov5-face |     yolov5n-face      | [1,3,640,640] |   int8   |   30.9    |           |
-|   yolov8    |        yolov8n        | [1,3,640,640] |   int8   |   59.8    |           |
-|             |        yolov8s        | [1,3,640,640] |   int8   |   37.2    |           |
-|             |        yolov8m        | [1,3,640,640] |   int8   |   19.8    |           |
-| yolov8-pose |     yolov8n-pose      | [1,3,640,640] |   int8   |   52.4    |           |
-|             |     yolov8s-pose      | [1,3,640,640] |   int8   |   33.0    |           |
-|             |     yolov8m-pose      | [1,3,640,640] |   int8   |   18.6    |           |
-|   yolo11    |        yolo11n        | [1,3,640,640] |   int8   |   44.1    |           |
-
-### 5.2 ASR
-
-> 说明：以下数据是基于 K3 平台（2 线程推理）按照组件 README 中步骤实测（数据截至 2026/3/10，还在优化中，敬请关注）：
-
-| 模型 | 量化 | 音频时长 | 处理时间 | RTF |
-|------|------|----------|----------|-----|
-| SenseVoice (model_quant_optimized.onnx) | INT8 | 41s | 14.3s | 0.35 |
-
-### 5.3 TTS
-
-> 说明：以下性能数据是基于 K3 平台（2 线程推理）按照组件中的 README 步骤实测（测试数据截至 2026/3/10，持续迭代中，敬请关注）：
-
-| 后端 | 测试文本 | 音频时长 | 处理时间 | RTF |
-|------|----------|----------|----------|-----|
-| MATCHA_ZH | "这是一个语音合成测试" | 2426ms | 1183ms | 0.49 |
-| MATCHA_EN | "Hello, world" | 731ms | 440ms | 0.60 |
-| MATCHA_ZH_EN | "今天学Python" | 1920ms | 715ms | 0.37 |
-| KOKORO | "你好" | 2075ms | 13814ms | 6.66 |
-
-### 5.4 LLM
-
-> 说明：以下数据是基于 K3 平台按照组件中的 README 步骤实测（数据截至 2026/3/10，还在优化中，敬请关注）。
-
-| 模型                  | 参数量 | 量化参数 | first token latency (ms) | token per second (tokens/s) | E2E latency (s) |
-|-----------------------|--------|----------|--------------------------|-----------------------------|-----------------|
-| Qwen2.5-0.5B-Instruct | 0.5B   | Q4_0     | 184                      | 47.8                        | 2.8             |
-| Qwen3-0.6B            | 0.6B   | Q4_K_M   | 250                      | 36.4                        | 3.7             |
-| LFM2.5-1.2B-Instruct  | 1.2B   | Q4_0     | 406                      | 25.4                        | 5.3             |
-| Qwen2.5-1.5B-Instruct | 1.5B   | Q4_0     | 398                      | 20.0                        | 6.8             |
-| Deepseek R1-1.5B      | 1.5B   | Q4_0     | 463                      | 19.8                        | 6.8             |
-| glm-edge-1.5b-chat    | 1.5B   | Q4_0     | 367                      | 21.8                        | 6.2             |
-| Qwen3-1.7B            | 1.7B   | Q8_0     | 635                      | 11.6                        | 11.5            |
-| Qwen2.5-3B-Instruct   | 3B     | Q4_0     | 806                      | 11.6                        | 12.5            |
-| SmallThinker-4B-A0.6B | 4B     | Q4_0     | 345                      | 29.5                        | 4.6             |
-| Qwen3-4B              | 4B     | Q4_K_M   | 1477                     | 7.4                         | 18.5            |
-| Qwen3-30B-A3B         | 30B    | Q4_0     | 1495                     | 10.0                        | 14.0            |
-
-详细的复现脚本、测试命令见：
+关于各模型性能数据总表可参阅[Model Zoo 性能数据](https://www.spacemit.com/community/document/info?lang=zh&nodepath=ai/compute_stack/ai_compute_stack/modelzoo.md)。各细分方向的详细测试数据、测试方法与复现说明可进一步参考以下组件文档：
 
 - [model-zoo-vision/README.md](https://github.com/spacemit-com/model-zoo-vision/blob/main/README.md)（附录：模型性能）
 - [model-zoo-asr/README.md](https://github.com/spacemit-com/model-zoo-asr/blob/main/README.md)（附录：性能指标）
