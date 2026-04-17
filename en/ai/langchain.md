@@ -2,37 +2,37 @@
 sidebar_position: 12
 ---
 
-# langchain
+# LangChain
 
-## 平台支持情况
+## Platform Support
 
-|      平台 & 系统       |       是否支持加速      |
-|-----------------------|-----------------------|
-| K1 Buildroot          | ❌ 不支持              |
-| K1 OpenHarmony5.0     | ❌ 不支持              |
-| K3 Bianbu LXQT/GNOME  | ✅ 支持                |
+| Platform & System     | Acceleration Support |
+|-----------------------|----------------------|
+| K1 Buildroot          | ❌ Not supported     |
+| K1 OpenHarmony 5.0    | ❌ Not supported     |
+| K3 Bianbu LXQt/GNOME  | ✅ Supported         |
 
-## 安装
+## Installation
 
-### 1.1. 安装依赖
+### 1. Install Dependencies
 
-安装基本依赖：
+Install the required system dependencies:
 ```bash
 sudo apt update
 sudo apt install python3-venv libffi-dev libssl-dev pkg-config
 ```
 
-安装rust：
+Install Rust:
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y --default-toolchain stable
 source ~/.cargo/env
 rustc --version
 ```
 
-有如下打印说明安装成功：
+Sample output as below for successful installation
 ![](../static/rust-install.png)
 
-### 1.2. 安装langchain
+### 2. Install LangChain
 
 ```bash
 python3 -m venv ./langchain_venv
@@ -40,7 +40,9 @@ source langchain_venv/bin/activate
 pip install langchain  -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-## 使用
+## Usage
+
+Activate the virtual environment and verify the installed LangChain version:
 
 ```bash
 source langchain_venv/bin/activate
